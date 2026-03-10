@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+  <contact>
+    <name>César Olaf Gutiérrez</name>
+    <phone>55 1234 5678</phone>
+    <campaign>Cobranza</campaign>
+    <status>nuevo</status>
+  </contact>
+  <contact>
+    <name>María Fernanda López</name>
+    <phone>55 9876 5432</phone>
+    <campaign>Ventas</campaign>
+    <status>en proceso</status>
+  </contact>
+  <contact>
+    <name>Jorge Ramírez</name>
+    <phone>55 2222 3333</phone>
+    <campaign>Cobranza</campaign>
+    <status>cerrado</status>
+  </contact>
+  <contact>
+    <name>Ana Torres</name>
+    <phone>55 4444 5555</phone>
+    <campaign>Ventas</campaign>
+    <status>nuevo</status>
+  </contact>
+  <contact>
+    <name>Luis Herrera</name>
+    <phone>55 6666 7777</phone>
+    <campaign>Soporte</campaign>
+    <status>en proceso</status>
+  </contact>
+  <contact>
+    <name>Gabriela Mendoza</name>
+    <phone>55 8888 9999</phone>
+    <campaign>Cobranza</campaign>
+    <status>nuevo</status>
+  </contact>
+  <contact>
+    <name>Roberto Sánchez</name>
+    <phone>55 1111 2222</phone>
+    <campaign>Ventas</campaign>
+    <status>cerrado</status>
+  </contact>
+</contacts>
