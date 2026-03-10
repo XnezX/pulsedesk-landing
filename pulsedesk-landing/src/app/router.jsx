@@ -54,7 +54,7 @@ export default function AppRouter({ mode, onToggleMode }) {
           path: "/demo",
           element: <Navigate to="/app" replace />,
         },
-      ]),
+      ], { basename: import.meta.env.BASE_URL }),
     [mode, onToggleMode],
   );
 
