@@ -7,8 +7,26 @@
     <title>PulseDesk — CRM ligero para contact center</title>
     <meta name="description" content="PulseDesk centraliza contactos, tipificaciones e historial en una interfaz clara. CRM ligero para equipos de contact center." />
     <meta property="og:title" content="PulseDesk — CRM ligero para contact center" />
-    <meta property="og:description" content="Gestiona contactos y seguimientos sin perder velocidad. Rápido, ordenado y enfocado." />
+    <meta property="og:description" content="Gestiona contactos y seguimientos sin perder velocidad. Rapido, ordenado y enfocado." />
     <meta property="og:type" content="website" />
+    <!-- Restaurar ruta SPA desde redirect de 404.html (GitHub Pages) -->
+    <script>
+      (function(l) {
+        if (l.search[1] === 'p') {
+          var decoded = l.search.slice(1).split('&').reduce(function(q, s) {
+            var kv = s.split('=');
+            q[kv[0]] = kv.slice(1).join('=').replace(/~and~/g, '&');
+            return q;
+          }, {});
+          if (decoded.p) {
+            window.history.replaceState(
+              null, null,
+              l.pathname + decoded.p + (decoded.q ? '?' + decoded.q : '') + l.hash
+            );
+          }
+        }
+      }(window.location));
+    </script>
   </head>
   <body>
     <div id="root"></div>
